@@ -1,0 +1,113 @@
+main {
+    height: 100vh;
+    padding: 2.5rem 5rem 2.5rem 4rem;
+}
+
+main section form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+main section form .userData {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+
+main section form .userData > div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+main section form .userData > div span {
+    color: #6E737E;
+    font-weight: bold;
+}
+
+main section form .userData > div input {
+    height: 3.5rem;
+    border-radius: 8px;
+    border: 1px solid #000;
+    padding: 1rem;
+    font-size: 1rem;
+    border: 2px solid #EBEBEF;
+    color: #9fa0a1;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+main section form .userData > div input::placeholder {
+    color: #9fa0a1;
+    font-weight: bold;
+}
+
+main section form .userData > div.cardCodes {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+main section form .userData > div.cardCodes > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex: 1;
+}
+
+main section form .userData > div.promoCode > div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 0 1.5rem 0;
+} 
+
+input[id="checkboxInput"] {
+    height: 1.5rem;
+    width: 1.5rem;
+    outline: none;
+}
+
+main section form .orderSummary {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+main section form .orderSummary > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main section form .orderSummary > div p {
+    color: #6E737E;
+}
+
+main section form .orderSummary > div span {
+    color: #505257;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+main section form .orderSummary > div.totalAmount {
+    border-top: 1px solid #EBEBEF;
+    padding: 1.3rem 0 1rem 0;
+}
+
+main section form .orderSummary > div.totalAmount span{
+    font-size: 1.5rem;
+}
+
+main section form .orderSummary > button {
+    height: 3.5rem;
+    background: #164AFF;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}

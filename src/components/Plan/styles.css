@@ -1,0 +1,111 @@
+.content {
+    display: grid;
+    grid-template-rows: 1.5fr 1.8fr;
+    padding: 1rem 0 1rem 0;
+}
+
+.content .planDetails {
+    background: #252525;
+    border-radius: 16px 16px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4rem;
+    gap: 3rem;
+    position: relative;
+}
+
+.content .planDetails h2 {
+    color: #fff;
+    font-weight: bold;
+    width: 20rem;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.content .planDetails .planType {
+    width: 25rem;
+    background: #fff;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1.5rem 0 1.5rem 1.5rem;
+    gap: 2rem;
+    position: absolute;
+    margin-top: calc(0px + 13.4rem);
+    box-shadow: 0 8px 6px -6px #505257;
+}
+
+.content .planDetails .planType .imagePlan {
+    display: flex;
+    justify-content: center;
+}
+
+.content .planDetails .planType .planChosen {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.content .planDetails .planType img {
+    height: 4rem;
+    padding: 0;
+    margin: 0;
+}
+
+.content .planDetails .planType span {
+    color: #6E737E;
+    font-weight: bold;
+}
+
+.content .planDetails .planType p {
+    color: #505257;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.content .planDescription {
+    background: #EDEFF3;
+    border-radius: 0 0 16px 16px;
+    padding-top: 6.5rem;
+}
+
+.content .planDescription ul {
+    margin-left: 5rem;
+    line-height: 2.8;
+    list-style: none;
+}
+
+.content .planDescription li {
+    color: #505257;
+}
+
+.content .planDescription ul li::before {
+    content: "\2022";
+    color: #325BCF;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1.5em;
+    margin-left: -1em;
+}
+
+.content .planDescription strong {
+    color: #252525;
+}
+
+.content .planDescription .modifyPlanLink {
+    display: inline-block;
+    padding-top: 2rem;
+    padding-bottom: 0.2rem;
+    margin-left: 3.5rem;
+    border-bottom: 2px solid #325BCF;
+}
+
+.content .planDescription a {
+    text-decoration: none;
+    color: #252525;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
